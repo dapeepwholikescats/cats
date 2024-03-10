@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+html {
+  font-family: 'Lobster two';
+}
+
+body {
+  margin: 0;
+}
+
+/*set up navigation bar */ 
+nav {
+  background-color: aliceblue;
+  padding: 1em;
+}
+
+nav a {
+  color: cadetblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: lavenderblush;
+  font-style: italic;
+}
+
+header,
+main {
+  background-color: lavenderblush;
+  padding: 1em;
+}
+
+h1,
+h2, p,
+ul {
+  margin: 0;
+}
+
+/*Make sections look nice **/
+main section {
+  background-color: lightgoldenrodyellow;
+  border-width: 1px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #999970;
+  padding: 1em 2em;
+  margin: 1em ; 
+}
+
+
+.arrow {
+  border: solid black;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 20px;
+}
+
+
+.left {
+  transform: rotate(135deg);
+}
+
+.right {
+  transform: rotate(-45deg);
+}
+
+#image-slider {
+  align-items: center;
+  display: flex;
+}
+
+#facts {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 0.5em;
+}
+#facts li {
+  background-color: #eab8b8;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 0.25em;
+}
+
+#facts li:nth-child(2n) {
+  background-color: lightblue;
+}
